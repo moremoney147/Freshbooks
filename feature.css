@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+   height: 100px;
+   background-color: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.accordion {
+    background-color: wheat;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid black;
+}
+
+.accordion p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.accordion summary { 
+    font-weight: bold;
+    color: beige;
+}
